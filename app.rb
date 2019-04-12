@@ -12,7 +12,7 @@ class App < Sinatra::Base
     @pg = params["pointguard"]
     @sg = params["safeguard"]
     @sf = params["smallforward"]
-    @pf = params["pf"]
+    @pf = params["powerforward"]
     @center = params["center"]
 
     erb :team
